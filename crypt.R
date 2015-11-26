@@ -24,5 +24,5 @@ read.aes <- function(filename,key) {
 }
 
 
-# key <- as.raw( sample(1:16, 16))
-# save(key,file = "key.RData")
+key <- as.raw( sample(1:16, 16))
+save(key,file = "key.RData")
